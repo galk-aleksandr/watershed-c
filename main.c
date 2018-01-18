@@ -157,6 +157,7 @@ void imprimir_fila(Fila *fl) {
 	printf("\n");
 }
 
+//aplica o algoritmo watershed à matriz da imagem.
 unsigned char* wshed(unsigned char *mtr, unsigned short l, unsigned short c) {
 	int mask = -2;
 	int wshd = 0;
